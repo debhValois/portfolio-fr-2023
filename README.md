@@ -3,9 +3,9 @@
   <img alt="Tasse du Café" title="portfolio" src="./img/icon6.png"/>
   PORTFOLIO 2022
 </h1>
-<p align="center"> Status <☕>Fini<☕/> 
+<p align="center"> Status <☕> Fini 19 à 25 mars <☕/></p>
 
-# HTML | CSS | JavaScript </p>
+# 
 
 ### Description
 - Accueil | À Propos | Compétences | Mon CV | Portfolio | Contact | Présentation
@@ -14,20 +14,26 @@
 - Pour lire les codes sources, il suffit d'y accéder directement dans ce répô.
 - Pour accéder à la page, cliquez sur l'image ci-dessous avec le *scroll* ou avec le bouton droit de le mouse pour ouvrir dans un nouvel onglet :
 
-<a href="https://debhvalois.github.io/portfolio-fr-2022/" alt="Portfolio" target="_blank">
-<img src="img/image-readme.jpg"/>
-</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://debhvalois.github.io/portfolio-fr-2022/" alt="Page" target="_blank">
+        <img src="img/mobile.jpg" width="150px" alt="mobile"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## :hammer_and_wrench: Technologies utilisées :
 
-*HTML5* | *CSS3* | *JavaScript* | *Bootstrap*
+# JavaScript | HTML5 | CSS3 | Bootstrap
 
 ## :octocat: L'auteure : 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./img/autora.jpeg" width="100px;" alt="Retrato"/><br>
+        <img src="./img/autora.jpeg" width="100px" alt="Retrato"/><br>
         <sub>
           <b>Debh Valois</b>
         </sub>
