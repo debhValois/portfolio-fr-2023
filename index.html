@@ -1,0 +1,597 @@
+<!-- PORTFOLIO RESPONSIVO FR | DEBH VALOIS | 19/03/2022 - 25/03/2022 -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/icon6.png" type='image/png'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>debhValois</title>
+</head>
+
+<body>
+    <i class="bi bi-list menu-mobile"></i>
+    <aside id="header">
+        <section class="profile">
+            <img class="retrato" src="./img/perfil.jpeg" alt="Foto da Debh">
+            <div class="d-flex align-items-center">
+                <img class="icon" src="./img/icon6.png">
+                <h1>Debh Valois</h1>
+                <img class="icon" src="./img/icon6.png">
+            </div>
+            <div class="social-links mt-4 text-center">
+                <a target="_blank" href="https://github.com/debhValois"><i class="bi bi-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/debhvaloispsy/"><i class="bi bi-linkedin"></i></a>
+                <a target="_blank" href="https://wa.me/message/ONHPRA62USWYK1"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </section>
+        <nav id='navbar' class="nav-menu">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"
+                            aria-hidden="true"></i> Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre"><i class="bi bi-person" aria-hidden="true"></i> À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#habilidades"><i class="bi bi-list-check" aria-hidden="true"></i>
+                        Mes Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#curriculo"><i class="bi bi-file-earmark" aria-hidden="true"></i>
+                        Mon CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"><i class="bi bi-collection" aria-hidden="true"></i>
+                        Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato"><i class="bi bi-envelope" aria-hidden="true"></i> Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <main id="main">
+
+        <!-- ACCUEIL -->
+        <section id="inicio" class="row m-0 p-0">
+            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="text-white text-shadow">Debh Valois</h2>
+                <span id="subtitle" class="text-white text-shadow">Développeuse Web & Psychologue</span>
+            </div>
+            <div class="col-md-7 d-flex justify-content-end align-items-end">
+                <div id="arraste" class="d-flex align-items-center">
+                    <a href="#sobre">En savoir plus<i class="bi bi-arrow-down pe-2 fs-2" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- À PROPOS -->
+        <section class="container mt-5" id="sobre">
+            <div class="row w-100">
+                <div class="col-md-12" data-anime="down">
+                    <h2 class='pt-3'>À Propos</h2>
+                    <p>J'ai une grande famille unie et aimante. J'étais déjà professeure de musique pendant plusieurs des années et j'ai appris à
+                        tous mes enfants à chanter et à jouer. Je suis chanteuse et j'aime écrire quand je trouve
+                        l'inspiration.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="img-fluid w-100 shadow" src="./img/img-sobre.jpg" alt="Foto da Debh" data-anime="left">
+                </div>
+                <div class="col-md-8" data-anime="right">
+                    <h3>Développeuse Web Front-End</h3>
+                    <p>Je suis actuellement en transition de carrière entre la psychologie et TI, pour ça j'étudie une
+                        spécialisation en développement web, équivalent au 3ème cycle.</p>
+                    <p>J'aime planifier, résoudre, développer, me salir les mains et voir tout ce qui se passe, se
+                        transformer et fonctionner magnifiquement!</p>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">Anniversaire : <span class="fw-lighter">29 juin 1975</span>
+                                </li>
+                                <li class="list-group-item">Âge : <span class="fw-lighter">46 ans</span>
+                                </li>
+                                <li class="list-group-item">Ville : <span class="fw-lighter">São Paulo</span>
+                                </li>
+                                <li class="list-group-item">Pays : <span class="fw-lighter">Brésil</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">Hobby : <span class="fw-lighter">Chanter</span></li>
+                                <li class="list-group-item">Formation : <span class="fw-lighter">Psychologie</span></li>
+                                <li class="list-group-item">Spécialisation TI : <a href="https://web.dio.me/home"
+                                        target="_blank" class="fw-lighter text-decoration-none link-dark">DIO</a></li>
+                                <li class="list-group-item">Expérience : <span class="fw-lighter">+5 TI | 4 Psy</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>Je ne suis plus jeune ni vieux. Je deviens très bonne dans tout ce que je me propose de faire. Je
+                        regarde un problème et je cherche des solutions, je teste le tout mille fois jusqu'à ce que ça
+                        marche et que le résultat soit l'excellence.</p>
+                        <p>Abandonner n'est jamais une option.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPÉTENCES -->
+        <section class="mt-5 section-bg" id="habilidades">
+            <div class="container pb-5">
+                <h2 class='pt-5'>Compétences</h2>
+                <p>Plus de 5 ans d’expérience en conception de sites web et développement d’interfaces d’utilisation.
+                    D’excellentes compétences en HTML5, CSS3.
+                    Des connaissances en ce qui a trait versioning Git et aux libs jQuery et React.Js.
+                    Des compétences poussées avec la capacité de reproduire fidèlement des layout présentée pour le code
+                    et modifier des scripts préétablis avec JavaScript.
+                    Un intérêt pour les remue-méninges et la collaboration.
+                    De la motivation et la capacité de résoudre des problèmes de manière créative.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class='mt-3 mb-0'>HTML5</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                data-anime="left" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">CSS3</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Bootstrap</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">JavaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">ReactJs</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 10%;"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Flask</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 10%;"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Python</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 10%;"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Git</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 10%;"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Deploy</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 50%;"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <p class="mt-3 mb-0">NodeJs</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 5%;"
+                                aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
+                        </div>
+                        <p class="mt-3 mb-0">XML/SWF</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 40%;"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                        <p class="mt-3 mb-0">SQL Server</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 40%;"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                        <p class="mt-3 mb-0">ActionScript 3</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Flash CS4</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <hr class='w-70 me-auto ms-auto'>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Travail en Équipe</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Proactivité</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Souci du Détail</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 100%;"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Empathie</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 95%;"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Communication</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 97%;"
+                                aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">96%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Apprentissage Continu</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 98%;"
+                                aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">97%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CURRICULUM -->
+        <section class="mt-5 cv" id="curriculo">
+            <div class="container pb-5">
+                <h2 class="pt-3 pb-4">Mon CV</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="cv-title">Formation</h3>
+                        <div class='cv-item' data-anime="up">
+                            <h4>Spécialisation : Développement Web</h4>
+                            <h5>2022 - 2023</h5>
+                            <p><em>DIO – Digital Innovation One Inc.</em></p>
+                            <p>JavaScript & JSES6 | HTML5 & CSS3 | Bootstrap & jQuery | ReactJS Redux Native Hoocks |
+                                SQL Server | Git & GitHub | Agile & Scrum | UX/UI | Responsivité | Logique de
+                                Programmation | IDE VSCode | English For Tech | Bootcamps</p>
+                        </div>
+                        <div class='cv-item' data-anime="up">
+                            <h4>Baccalauréat : Psychologie</h4>
+                            <h5>2014 - 2018</h5>
+                            <p><em>UNIFAJ – Centro Universitário de Jaguariúna</em></p>
+                            <p>Moyenne globale de 10 semestres (4.040h.) = 85% (8,58 / 10,00)</p>
+                        </div>
+                        <div class='cv-item' data-anime="up">
+                            <h4>Tecquinique : Traitement des Données</h4>
+                            <h5>1995 - 1998</h5>
+                            <p><em>UNIVAP – Universidade do Vale do Paraíba</em></p>
+                            <p>Delphi | Object Pascal | Visual Basic | Cobol</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="cv-title">Expérience</h3>
+                        <div class='cv-item' data-anime="up">
+                            <h4>Psychologue Recruteuse</h4>
+                            <h5>2021 - 2022</h5>
+                            <p><em>Vivier de Talentos</em></p>
+                            <p>Tech Recruiter (freelance) : Attraction & Sélection | Hunting active et passive |
+                                Formation d'équipe | Conseil aux entreprises | Recrutement à forte demande | Flux
+                                organique | Marketing numérique | Scrum | CRM | Chatbot.</p>
+                        </div>
+                        <div class='cv-item' data-anime="up">
+                            <h4>Développeuse Web Front-End</h4>
+                            <h5>2008 - 2014</h5>
+                            <p><em>Vu3D Comunicação Visual</em></p>
+                            <p>• Les Technologies : ActionScript 3.0 | Adobe Flash CS4 | HTML | CSS | XML/SWF |
+                                JavaScript | Scripts SQL | Blender 3D & Libspark | Adobe Photoshop CS4 | PTGui &
+                                PTEditor | Adobe After Effects.</p>
+                            <p>• Des Projets : Sites institutionnels immersifs | Sites web à fort impact intégrés dans
+                                des environnements tridimensionnels | Tour Virtuell 360º | Réalité Augmentée | Marketing
+                                d'expérience | Photographie panoramique | Skin personnalisée.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="section-bg mt-5">
+            <div class="container pb-5 pt-5" data-anime="left">
+                <h2 class="pb-4">Portfolio</h2>
+                <!-- ANCORAGEM DE PAGES À BNS CAROUSEL -->
+                <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <!-- SLIDE PAGE 1 -->
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <!-- FAJ -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="./img/faj-campus.jpg" class="card-img-top"
+                                            alt="print do layout img-fluid w-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">FAJ Campus II</h5>
+                                            <p class="card-text">Projet : Virtual Tour 360º des installations du pôle
+                                                universitaire de la ville de Jaguariúna - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/faj-campus.jpg" target='_blank' class="meu-zoom"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CENTER LOUÇAS -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="./img/center-loucas.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Center Louças Pedreira</h5>
+                                            <p class="card-text">Projet : Des magasins du plus grand centre commercial
+                                                de porcelaine de la ville de Pedreira - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/center-loucas.jpg" target='_blank' class="meu-zoom"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PARQUE DOS LAGOS -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="./img/parque-dos-lagos.jpg" class="card-img-top img-fluid w-100 h-50"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Parque dos Lagos</h5>
+                                            <p class="card-text">Projet : Virtual Tour 360º dans le plus grand parc de
+                                                la ville de Jaguariúna - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/parque-dos-lagos.jpg" target='_blank' class="meu-zoom"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SLIDE PAGE 2 -->
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <!-- LOJA JAPONESA -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/loja-japonesa.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Loja Japonesa</h5>
+                                            <p class="card-text">Projet : Site du magasin de produits pour enfants dans
+                                                la ville de Pedreira - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/loja-japonesa.jpg" target='_blank' class="meu-zoom"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- INNOVARE VIRTUAL -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/innovare-virtual.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Innovare Virtual</h5>
+                                            <p class="card-text">Projet : Virtualisation d'un show room d'appartements
+                                                dans la ville de São Paulo - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/innovare-virtual.jpg" target='_blank' class="meu-zoom"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- KAWASAKI -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/studio-motors-kawasaki.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Studio Motors Kawasaki</h5>
+                                            <p class="card-text">Projet : Virtual Tour 360º chez un concessionnaire de
+                                                motos dans la ville de Campinas - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/studio-motors-kawasaki.jpg" target='_blank'
+                                                    class="meu-zoom"><i class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- SLIDE 3 -->
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <!-- CONCORDE NISSAN -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/concorde-nissan.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Concorde Nissan</h5>
+                                            <p class="card-text">Projet : Virtual Tour 360º chez un concessionnaire
+                                                automobile de la ville de Campinas - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/concorde-nissan.jpg" target='_blank' class="meu-zoom"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CONCORDE RENAULT -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/concorde-renault.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Concorde Renault</h5>
+                                            <p class="card-text">Projet : Virtual Tour 360º chez un concessionnaire
+                                                automobile de la ville de Campinas - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/concorde-renault.jpg" target='_blank' class="meu-zoom"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- DAHRUJ HONDA -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/dahruj-honda.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dahruj Honda</h5>
+                                            <p class="card-text">Projet : Virtual Tour 360º chez un concessionnaire
+                                                automobile de la ville de Campinas - SP - Brésil</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="./img/dahruj-honda.jpg" target='_blank' class="meu-zoom"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- SLIDE 4 -->
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <!-- NETFLIX -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/layout-netflix.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Netflix</h5>
+                                            <p class="card-text">Clonage de Layout : "Petflix" avec une nouvelle
+                                                proposition pour les pets</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://debhvalois.github.io/desafioDioCloneNetflix/"
+                                                    target='_blank' class="meu-zoom"><i class="bi bi-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- INSTAGRAM -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/layout-instagram.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Instagram</h5>
+                                            <p class="card-text">Clonage de Layout : Reproduction de la page de login au
+                                                réseau social</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://debhvalois.github.io/desafioDioLayoutInstagram22/"
+                                                    target='_blank' class="meu-zoom"><i class="bi bi-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- GAME -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/game.jpg" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bootcamp Game</h5>
+                                            <p class="card-text">Défi : Reproduction du célèbre "Snake Game" en
+                                                JavaScript</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://debhvalois.github.io/desafioDioBootcampGame/#game"
+                                                    target='_blank' class="meu-zoom"><i class="bi bi-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="pt-5 pb-5" id="contato">
+            <div class="container mb-5">
+                <h2 class='pt-3 pb-3'>Contactez-moi</h2>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="card p-5 shadow border-0" data-anime="up">
+                            <div>
+                                <h4><i class="bi bi-envelope"></i> Email :</h4>
+                                <p>debhvalois@gmail.com</p>
+                            </div>
+                            <div>
+                                <h4><i class="bi bi-geo-alt"></i> Localisation :</h4>
+                                <p>Jaguariúna, SP - Brésil</p>
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58896.17031640148!2d-47.022793301553754!3d-22.690647651976946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8e80da88071f7%3A0x6e29a718464d3c54!2sJaguari%C3%BAna%2C%20SP%2C%2013820-000!5e0!3m2!1spt-BR!2sbr!4v1648091271927!5m2!1spt-BR!2sbr"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-7 mt-5 mt-md-0">
+                        <div class="card p-5 h-100 shadow border-0" data-anime="left">
+                            <img src="./img/img-presentation.jpg" class="card-img-top img-fluid w-100 shadow"
+                                alt="print do video">
+                            <div class="card-body">
+                                <h5 class="card-title">Une brève présentation</h5>
+                                <p class="card-text">Vidéo de 2 minutes enregistrée le 21 mars 2022</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="https://youtu.be/WOXYLLZqNrI" target='_blank' class="meu-zoom"><i
+                                            class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="container">
+                <div class="text-center">
+                    &copy; Copyright <strong>
+                        <☕>debhValois<☕>
+                    </strong>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
