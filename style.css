@@ -240,6 +240,21 @@ i.menu-mobile {
 .carousel-indicators{
   margin-bottom: -35px;
 }
+
+.meu-link i {
+  font-size: 1rem;
+   background: #212431;
+   color: whitesmoke;
+   padding: 0.6rem;
+   margin-right: 1rem;
+   border-radius: 50%;
+   transition: 0.3s;
+   text-decoration: none;
+}
+.meu-link i:hover {
+ background: #149ddd;
+}
+
 .meu-zoom i {
    font-size: 1rem;
     background: #212431;
@@ -253,6 +268,13 @@ i.menu-mobile {
 .meu-zoom i:hover {
   background: #149ddd;
 }
+
+@media (max-width: 1012px){
+  .meu-zoom{
+    display: none;
+  } 
+
+
 /* ******* ANIMATION ****** */
 [data-anime] {
   opacity: 0;
