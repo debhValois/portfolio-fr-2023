@@ -21,7 +21,7 @@ body {
   padding: 0 15px;
   z-index: 9997;
 }
-#header .profile .retrato {
+#header .profile .portrait {
   margin: 15px auto;
   display: block;
   width: 120px;
@@ -96,7 +96,7 @@ body {
     margin-left: 300px;
 }
 /* *********** <!-- ACCUEIL --> ********** */ 
-section#inicio {
+section#accueil {
     background-image: url("./img/bg740-493.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,21 +105,21 @@ section#inicio {
     width: 100%;
     height: 100vh;
 } 
-section#inicio h2 {
+section#accueil h2 {
     font-size: 6rem;
 } 
-section#inicio span#subtitle {
+section#accueil span#subtitle {
     margin-right: 8rem;
     font-size: 1.5rem;
 }  
 .text-shadow {
     text-shadow: 4px 4px 10px #000000;
 }  
-section#inicio div#arraste {
+section#accueil div#arraste {
     width: 9rem;
     cursor: pointer;
 }  
-section#inicio div#arraste a {
+section#accueil div#arraste a {
     text-decoration: none;
     color: #000000;
 }
@@ -169,10 +169,10 @@ i.menu-mobile {
     i.menu-mobile{
       display: flex;
     }
-    section#inicio h2{
+    section#accueil h2{
       font-size: 3.5rem ;
     }
-    section#inicio span#subtitle{
+    section#accueil span#subtitle{
       margin-right: 0;
       font-size: 1rem;
     }
