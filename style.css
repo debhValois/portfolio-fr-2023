@@ -237,9 +237,20 @@ i.menu-mobile {
   border-radius: 50%;
 }
 /* ******* <!-- PORTFOLIO CAROUSEL --> ****** */
+
+.carousel-control-prev{
+  margin-left: -10rem; 
+ 
+}
+
+.carousel-control-next{
+  margin-right: -10rem;  
+}
+
 .carousel-indicators{
   margin-bottom: -35px;
 }
+
 
 .meu-link i {
   font-size: 1rem;

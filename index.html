@@ -298,57 +298,65 @@
         <section id="portfolio" class="section-bg mt-5">
             <div class="container pb-5 pt-5" data-anime="left">
                 <h2 class="pb-4">Portfolio</h2>
+
                 <!-- ANCORAGEM DE PAGES À BNS CAROUSEL -->
+              
                 <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
+                        aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="3"
                             aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
                     </div>
+                    
                     <div class="carousel-inner">
 
-                    <!-- SLIDE 1 -->
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-                            <!-- SPIDER-MAN MULTIVERSO-->
-                            <div class="col">
-                                <div class="card h-100">
-                                    <img src="./img/spider.png" class="card-img-top img-fluid w-100"
-                                        alt="print do layout">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Spider-Man Multiverso</h5>
-                                        <p class="card-text">En cours de réalisation</p>
-                                        <div class="d-flex justify-content-center">
-                                            <a href="https://github.com/debhValois/dio-spiderman-multiverso"
-                                                target='_blank' class="meu-link"><i class="bi bi-github"></i></a>
+                        <!-- SLIDE 1 -->
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <!-- Qdo for inserir + 1 card aqui, trocar para md-3 g4 -->
+                            <div class="row row-cols-1 row-cols-md-2 g-6">
+                                
+                                <!-- SPIDER-MAN MULTIVERSO-->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/spider.png" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Spider-Man Multiverso</h5>
+                                            <p class="card-text">En cours de réalisation</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/debhValois/dio-spiderman-multiverso"
+                                                    target='_blank' class="meu-link"><i class="bi bi-github"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- HARRY POTTER -->
-                            <div class="col">
-                                <div class="card h-100">
-                                    <img src="./img/harryPotter.png" class="card-img-top img-fluid w-100"
-                                        alt="print do layout">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Harry Potter</h5>
-                                        <p class="card-text">En cours de réalisation</p>
-                                        <div class="d-flex justify-content-center">
-                                            <a href="https://github.com/debhValois/spa-hp-cps"
-                                                target='_blank' class="meu-link"><i class="bi bi-github"></i></a>
+                                <!-- HARRY POTTER -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./img/harryPotter.png" class="card-img-top img-fluid w-100"
+                                            alt="print do layout">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Harry Potter</h5>
+                                            <p class="card-text">En cours de réalisation</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/debhValois/spa-hp-cps"
+                                                    target='_blank' class="meu-link"><i class="bi bi-github"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                         <!-- SLIDE 2 -->
-                        <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="2000">
                             <div class="row row-cols-1 row-cols-md-3 g-4">
                                 <!-- NETFLIX -->
                                 <div class="col">
@@ -558,10 +566,22 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
+
+                    <!-- BTNS NAVEGADORES DO CAROUSSEL < > -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+                    data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+                    data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    
                 </div>
             </div>
         </section>
